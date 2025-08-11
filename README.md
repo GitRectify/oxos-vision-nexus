@@ -1,73 +1,39 @@
-# Welcome to your Lovable project
+# OXOS Enterprise System (OES) Front-End
 
-## Project info
+This repository contains the front-end codebase for the **OXOS Enterprise System (OES)**, a next-generation React-based platform developed for OXOS Medical. OES powers real-time business insights, AI-driven workflows, and offline-first performance for the entire enterprise.
 
-**URL**: https://lovable.dev/projects/6ff6cfca-3836-4927-a54f-748c1efacdd0
+## Project Overview
 
-## How can I edit this code?
+OXOS Medical is a venture-backed, FDA-cleared radiographic imaging system company. To accelerate internal development and operational efficiency, OES was architected as a scalable, secure, and performant React application designed to:
 
-There are several ways of editing your application.
+- Deliver real-time insights and analytics
+- Provide AI-augmented workflows
+- Enable offline-first access with data synchronization
+- Integrate with backend services via secure authentication
+- Ensure enterprise-grade quality with comprehensive testing and CI/CD pipelines
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6ff6cfca-3836-4927-a54f-748c1efacdd0) and start prompting.
+- **Offline-First Architecture:** Utilizes Service Workers and IndexedDB for caching and local data persistence.
+- **Secure Authentication & Authorization:** Implements OAuth 2.0 / OpenID Connect flows with JWT token handling and role-based access control.
+- **Responsive UI:** Built with modular, accessible React components, fully responsive across devices.
+- **Testing:** Comprehensive unit and end-to-end tests using Jest and Cypress for robust coverage.
+- **CI/CD Pipeline:** Automated build, test, and deployment via GitHub Actions integrated with Google Cloud Run.
+- **Cloud Integration:** Hosted on Google Cloud Run with centralized logging, performance monitoring, and error tracking.
+- **AI-Assisted Development:** Utilizes AI coding assistants for increased development speed and quality.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (>=16.x)
+- Yarn or npm
+- Docker (for containerized development)
+- Google Cloud SDK (optional, for deployment)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6ff6cfca-3836-4927-a54f-748c1efacdd0) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+git clone https://github.com/GitRectify/oxos-vision-nexus.git
+cd oxos-vision-nexus
+yarn install
