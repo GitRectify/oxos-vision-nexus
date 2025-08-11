@@ -36,4 +36,4 @@ OXOS Medical is a venture-backed, FDA-cleared radiographic imaging system compan
 ```bash
 git clone https://github.com/GitRectify/oxos-vision-nexus.git
 cd oxos-vision-nexus
-yarn install
+npm install
